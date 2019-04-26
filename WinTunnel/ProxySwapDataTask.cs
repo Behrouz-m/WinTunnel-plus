@@ -107,6 +107,7 @@ Proxy-Authorization: Basic YmVocm91ejp0ZXJpc21h
 		}
 
 		static byte XOR = 0x27;
+		//static byte XOR = 0x34;
 
 		static int CopyBuffer(byte[] input, int input_size, ref byte[] output, ProxyConnection conn, bool client_to_server)
 		{
